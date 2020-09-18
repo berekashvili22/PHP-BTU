@@ -1,6 +1,6 @@
 <?php
 	require_once("db.php");
-	$sql="DELETE FROM `producet` WHERE `id`=2 ";
+	$sql="DELETE FROM `product` WHERE `id`=2 ";
 	if ($conn->query($sql) === TRUE) {
 		echo "deleted";
 	}

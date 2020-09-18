@@ -2,7 +2,7 @@
 
 <?php
 	require_once("db.php");
-	$sql="UPDATE `producet` SET 
+	$sql="UPDATE `product` SET 
                  `product_name`='iphone x' WHERE `id`=3 ";
 	if ($conn->query($sql) === TRUE) {
 		echo "updated";
