@@ -18,6 +18,7 @@
             <textarea name="short_description" class="form-control">
                 {{ $product->short_description  }}
             </textarea>
+            <input type="text" class="form-control" name="img_url" value="{{ $product->img_url }}">
             <button class="btn btn-primary w-100">update</button>
         </form>
 </html>

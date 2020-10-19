@@ -30,6 +30,7 @@ class ProductsController extends Controller
             "title"=>$request->input("title"),
             "text"=>$request->input("text"),
             "short_description"=>$request->input("short_description"),
+            "img_url"=>$request->input("img_url"),
         ]);
         return redirect()->route("adminindex");
     }
@@ -60,7 +61,8 @@ class ProductsController extends Controller
     	Products::where("id",$request->input("id"))->update([
             "title"=>$request->input("title"),
             "text"=>$request->input("text"),
-            "short_description"=>$request->input("short_description")
+            "short_description"=>$request->input("short_description"),
+            "img_url"=>$request->input("img_url"),
         ]);
         return redirect()->route("adminindex");
     }

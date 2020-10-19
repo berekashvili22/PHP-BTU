@@ -209,7 +209,7 @@
     <!-- entity_social -->
 
     <div class="entity_thumb">
-        <img class="img-responsive" src="assets/img/category_img_top.jpg" alt="feature-top">
+        <img class="img-responsive" src="{{ $product->img_url }}" alt="feature-top">
     </div>
     <!-- entity_thumb -->
 

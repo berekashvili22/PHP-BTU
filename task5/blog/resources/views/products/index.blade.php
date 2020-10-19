@@ -121,7 +121,7 @@
             <div class="col-md-5" style="margin: 20px">
                 <div class="feature_article_wrapper">
                     <div class="feature_article_img">
-                        <img class="img-responsive top_static_article_img" src="assets/img/feature-top.jpg"
+                        <img class="img-responsive top_static_article_img" src="{{ $product->img_url }}"
                              alt="feature-top">
                     </div>
                     <div class="feature_article_inner" style=" background: rgb(248, 240, 226);">
